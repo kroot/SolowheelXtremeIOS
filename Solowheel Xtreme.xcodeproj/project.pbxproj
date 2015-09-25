@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261C2E6F1BB4C9CB005CD22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E6E1BB4C9CB005CD22A /* AppDelegate.swift */; };
+		261C2E711BB4C9CB005CD22A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E701BB4C9CB005CD22A /* ViewController.swift */; };
+		261C2E741BB4C9CB005CD22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261C2E721BB4C9CB005CD22A /* Main.storyboard */; };
+		261C2E771BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E751BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodeld */; };
+		261C2E791BB4C9CB005CD22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261C2E781BB4C9CB005CD22A /* Assets.xcassets */; };
+		261C2E7C1BB4C9CB005CD22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261C2E7A1BB4C9CB005CD22A /* LaunchScreen.storyboard */; };
+		261C2E871BB4C9CB005CD22A /* Solowheel_XtremeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E861BB4C9CB005CD22A /* Solowheel_XtremeTests.swift */; };
+		261C2E921BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E911BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		261C2E831BB4C9CB005CD22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261C2E631BB4C9CB005CD22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261C2E6A1BB4C9CB005CD22A;
+			remoteInfo = "Solowheel Xtreme";
+		};
+		261C2E8E1BB4C9CB005CD22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261C2E631BB4C9CB005CD22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261C2E6A1BB4C9CB005CD22A;
+			remoteInfo = "Solowheel Xtreme";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261C2E6B1BB4C9CB005CD22A /* Solowheel Xtreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solowheel Xtreme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C2E6E1BB4C9CB005CD22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		261C2E701BB4C9CB005CD22A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		261C2E731BB4C9CB005CD22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		261C2E761BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solowheel_Xtreme.xcdatamodel; sourceTree = "<group>"; };
+		261C2E781BB4C9CB005CD22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		261C2E7B1BB4C9CB005CD22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		261C2E7D1BB4C9CB005CD22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261C2E821BB4C9CB005CD22A /* Solowheel XtremeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solowheel XtremeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C2E861BB4C9CB005CD22A /* Solowheel_XtremeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solowheel_XtremeTests.swift; sourceTree = "<group>"; };
+		261C2E881BB4C9CB005CD22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261C2E8D1BB4C9CB005CD22A /* Solowheel XtremeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solowheel XtremeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C2E911BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solowheel_XtremeUITests.swift; sourceTree = "<group>"; };
+		261C2E931BB4C9CB005CD22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261C2E681BB4C9CB005CD22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C2E7F1BB4C9CB005CD22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C2E8A1BB4C9CB005CD22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261C2E621BB4C9CB005CD22A = {
+			isa = PBXGroup;
+			children = (
+				261C2E6D1BB4C9CB005CD22A /* Solowheel Xtreme */,
+				261C2E851BB4C9CB005CD22A /* Solowheel XtremeTests */,
+				261C2E901BB4C9CB005CD22A /* Solowheel XtremeUITests */,
+				261C2E6C1BB4C9CB005CD22A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		261C2E6C1BB4C9CB005CD22A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261C2E6B1BB4C9CB005CD22A /* Solowheel Xtreme.app */,
+				261C2E821BB4C9CB005CD22A /* Solowheel XtremeTests.xctest */,
+				261C2E8D1BB4C9CB005CD22A /* Solowheel XtremeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261C2E6D1BB4C9CB005CD22A /* Solowheel Xtreme */ = {
+			isa = PBXGroup;
+			children = (
+				261C2E6E1BB4C9CB005CD22A /* AppDelegate.swift */,
+				261C2E701BB4C9CB005CD22A /* ViewController.swift */,
+				261C2E721BB4C9CB005CD22A /* Main.storyboard */,
+				261C2E781BB4C9CB005CD22A /* Assets.xcassets */,
+				261C2E7A1BB4C9CB005CD22A /* LaunchScreen.storyboard */,
+				261C2E7D1BB4C9CB005CD22A /* Info.plist */,
+				261C2E751BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodeld */,
+			);
+			path = "Solowheel Xtreme";
+			sourceTree = "<group>";
+		};
+		261C2E851BB4C9CB005CD22A /* Solowheel XtremeTests */ = {
+			isa = PBXGroup;
+			children = (
+				261C2E861BB4C9CB005CD22A /* Solowheel_XtremeTests.swift */,
+				261C2E881BB4C9CB005CD22A /* Info.plist */,
+			);
+			path = "Solowheel XtremeTests";
+			sourceTree = "<group>";
+		};
+		261C2E901BB4C9CB005CD22A /* Solowheel XtremeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				261C2E911BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift */,
+				261C2E931BB4C9CB005CD22A /* Info.plist */,
+			);
+			path = "Solowheel XtremeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261C2E6A1BB4C9CB005CD22A /* Solowheel Xtreme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261C2E961BB4C9CB005CD22A /* Build configuration list for PBXNativeTarget "Solowheel Xtreme" */;
+			buildPhases = (
+				261C2E671BB4C9CB005CD22A /* Sources */,
+				261C2E681BB4C9CB005CD22A /* Frameworks */,
+				261C2E691BB4C9CB005CD22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solowheel Xtreme";
+			productName = "Solowheel Xtreme";
+			productReference = 261C2E6B1BB4C9CB005CD22A /* Solowheel Xtreme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		261C2E811BB4C9CB005CD22A /* Solowheel XtremeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261C2E991BB4C9CB005CD22A /* Build configuration list for PBXNativeTarget "Solowheel XtremeTests" */;
+			buildPhases = (
+				261C2E7E1BB4C9CB005CD22A /* Sources */,
+				261C2E7F1BB4C9CB005CD22A /* Frameworks */,
+				261C2E801BB4C9CB005CD22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261C2E841BB4C9CB005CD22A /* PBXTargetDependency */,
+			);
+			name = "Solowheel XtremeTests";
+			productName = "Solowheel XtremeTests";
+			productReference = 261C2E821BB4C9CB005CD22A /* Solowheel XtremeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		261C2E8C1BB4C9CB005CD22A /* Solowheel XtremeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261C2E9C1BB4C9CB005CD22A /* Build configuration list for PBXNativeTarget "Solowheel XtremeUITests" */;
+			buildPhases = (
+				261C2E891BB4C9CB005CD22A /* Sources */,
+				261C2E8A1BB4C9CB005CD22A /* Frameworks */,
+				261C2E8B1BB4C9CB005CD22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261C2E8F1BB4C9CB005CD22A /* PBXTargetDependency */,
+			);
+			name = "Solowheel XtremeUITests";
+			productName = "Solowheel XtremeUITests";
+			productReference = 261C2E8D1BB4C9CB005CD22A /* Solowheel XtremeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261C2E631BB4C9CB005CD22A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Inventist;
+				TargetAttributes = {
+					261C2E6A1BB4C9CB005CD22A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					261C2E811BB4C9CB005CD22A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 261C2E6A1BB4C9CB005CD22A;
+					};
+					261C2E8C1BB4C9CB005CD22A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 261C2E6A1BB4C9CB005CD22A;
+					};
+				};
+			};
+			buildConfigurationList = 261C2E661BB4C9CB005CD22A /* Build configuration list for PBXProject "Solowheel Xtreme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 261C2E621BB4C9CB005CD22A;
+			productRefGroup = 261C2E6C1BB4C9CB005CD22A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261C2E6A1BB4C9CB005CD22A /* Solowheel Xtreme */,
+				261C2E811BB4C9CB005CD22A /* Solowheel XtremeTests */,
+				261C2E8C1BB4C9CB005CD22A /* Solowheel XtremeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261C2E691BB4C9CB005CD22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C2E7C1BB4C9CB005CD22A /* LaunchScreen.storyboard in Resources */,
+				261C2E791BB4C9CB005CD22A /* Assets.xcassets in Resources */,
+				261C2E741BB4C9CB005CD22A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C2E801BB4C9CB005CD22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C2E8B1BB4C9CB005CD22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261C2E671BB4C9CB005CD22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C2E711BB4C9CB005CD22A /* ViewController.swift in Sources */,
+				261C2E6F1BB4C9CB005CD22A /* AppDelegate.swift in Sources */,
+				261C2E771BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C2E7E1BB4C9CB005CD22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C2E871BB4C9CB005CD22A /* Solowheel_XtremeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C2E891BB4C9CB005CD22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C2E921BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		261C2E841BB4C9CB005CD22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261C2E6A1BB4C9CB005CD22A /* Solowheel Xtreme */;
+			targetProxy = 261C2E831BB4C9CB005CD22A /* PBXContainerItemProxy */;
+		};
+		261C2E8F1BB4C9CB005CD22A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261C2E6A1BB4C9CB005CD22A /* Solowheel Xtreme */;
+			targetProxy = 261C2E8E1BB4C9CB005CD22A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		261C2E721BB4C9CB005CD22A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261C2E731BB4C9CB005CD22A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		261C2E7A1BB4C9CB005CD22A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261C2E7B1BB4C9CB005CD22A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261C2E941BB4C9CB005CD22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		261C2E951BB4C9CB005CD22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261C2E971BB4C9CB005CD22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solowheel Xtreme/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-Xtreme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		261C2E981BB4C9CB005CD22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solowheel Xtreme/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-Xtreme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		261C2E9A1BB4C9CB005CD22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Solowheel XtremeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-XtremeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solowheel Xtreme.app/Solowheel Xtreme";
+			};
+			name = Debug;
+		};
+		261C2E9B1BB4C9CB005CD22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Solowheel XtremeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-XtremeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solowheel Xtreme.app/Solowheel Xtreme";
+			};
+			name = Release;
+		};
+		261C2E9D1BB4C9CB005CD22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Solowheel XtremeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-XtremeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solowheel Xtreme";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		261C2E9E1BB4C9CB005CD22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Solowheel XtremeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-XtremeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solowheel Xtreme";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261C2E661BB4C9CB005CD22A /* Build configuration list for PBXProject "Solowheel Xtreme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C2E941BB4C9CB005CD22A /* Debug */,
+				261C2E951BB4C9CB005CD22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261C2E961BB4C9CB005CD22A /* Build configuration list for PBXNativeTarget "Solowheel Xtreme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C2E971BB4C9CB005CD22A /* Debug */,
+				261C2E981BB4C9CB005CD22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		261C2E991BB4C9CB005CD22A /* Build configuration list for PBXNativeTarget "Solowheel XtremeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C2E9A1BB4C9CB005CD22A /* Debug */,
+				261C2E9B1BB4C9CB005CD22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		261C2E9C1BB4C9CB005CD22A /* Build configuration list for PBXNativeTarget "Solowheel XtremeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C2E9D1BB4C9CB005CD22A /* Debug */,
+				261C2E9E1BB4C9CB005CD22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		261C2E751BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				261C2E761BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodel */,
+			);
+			currentVersion = 261C2E761BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodel */;
+			path = Solowheel_Xtreme.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 261C2E631BB4C9CB005CD22A /* Project object */;
+}
