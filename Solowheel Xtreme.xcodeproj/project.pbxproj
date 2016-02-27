@@ -16,6 +16,7 @@
 		261C2E871BB4C9CB005CD22A /* Solowheel_XtremeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E861BB4C9CB005CD22A /* Solowheel_XtremeTests.swift */; };
 		261C2E921BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E911BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift */; };
 		265281B01BCAC669000E6B8E /* GaugesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265281AF1BCAC668000E6B8E /* GaugesViewController.swift */; };
+		2656ABDD1C815F0B003A2A4D /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2656ABDC1C815F0B003A2A4D /* License.txt */; };
 		267D15791BCDE59F004C2CD4 /* DataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D15781BCDE59F004C2CD4 /* DataSingleton.swift */; };
 		268F248E1C1CC1B2007A2FD2 /* Xtreme Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2693200B1BDB029600C8A4D7 /* Xtreme Watch.app */; };
 		2693200F1BDB029600C8A4D7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2693200D1BDB029600C8A4D7 /* Interface.storyboard */; };
@@ -100,6 +101,7 @@
 		261C2E911BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solowheel_XtremeUITests.swift; sourceTree = "<group>"; };
 		261C2E931BB4C9CB005CD22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		265281AF1BCAC668000E6B8E /* GaugesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugesViewController.swift; sourceTree = "<group>"; };
+		2656ABDC1C815F0B003A2A4D /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		267D15781BCDE59F004C2CD4 /* DataSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSingleton.swift; sourceTree = "<group>"; };
 		2693200B1BDB029600C8A4D7 /* Xtreme Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xtreme Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2693200E1BDB029600C8A4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		261C2E621BB4C9CB005CD22A = {
 			isa = PBXGroup;
 			children = (
+				2656ABDC1C815F0B003A2A4D /* License.txt */,
 				261C2E6D1BB4C9CB005CD22A /* Solowheel Xtreme */,
 				261C2E851BB4C9CB005CD22A /* Solowheel XtremeTests */,
 				261C2E901BB4C9CB005CD22A /* Solowheel XtremeUITests */,
@@ -398,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2656ABDD1C815F0B003A2A4D /* License.txt in Resources */,
 				261C2E7C1BB4C9CB005CD22A /* LaunchScreen.storyboard in Resources */,
 				261C2E791BB4C9CB005CD22A /* Assets.xcassets in Resources */,
 				261C2E741BB4C9CB005CD22A /* Main.storyboard in Resources */,
