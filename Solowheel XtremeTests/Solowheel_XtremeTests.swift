@@ -3,7 +3,6 @@
 //  Solowheel XtremeTests
 //
 //  Created by kroot on 9/24/15.
-//  Copyright © 2015 Inventist. All rights reserved.
 //
 
 import XCTest

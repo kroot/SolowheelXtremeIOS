@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		261C2E6F1BB4C9CB005CD22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E6E1BB4C9CB005CD22A /* AppDelegate.swift */; };
-		261C2E711BB4C9CB005CD22A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E701BB4C9CB005CD22A /* ViewController.swift */; };
+		261C2E711BB4C9CB005CD22A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E701BB4C9CB005CD22A /* SearchViewController.swift */; };
 		261C2E741BB4C9CB005CD22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261C2E721BB4C9CB005CD22A /* Main.storyboard */; };
 		261C2E771BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E751BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodeld */; };
 		261C2E791BB4C9CB005CD22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261C2E781BB4C9CB005CD22A /* Assets.xcassets */; };
 		261C2E7C1BB4C9CB005CD22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261C2E7A1BB4C9CB005CD22A /* LaunchScreen.storyboard */; };
 		261C2E871BB4C9CB005CD22A /* Solowheel_XtremeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E861BB4C9CB005CD22A /* Solowheel_XtremeTests.swift */; };
 		261C2E921BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C2E911BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift */; };
+		265281B01BCAC669000E6B8E /* GaugesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265281AF1BCAC668000E6B8E /* GaugesViewController.swift */; };
+		267D15791BCDE59F004C2CD4 /* DataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D15781BCDE59F004C2CD4 /* DataSingleton.swift */; };
+		268F248E1C1CC1B2007A2FD2 /* Xtreme Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2693200B1BDB029600C8A4D7 /* Xtreme Watch.app */; };
+		2693200F1BDB029600C8A4D7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2693200D1BDB029600C8A4D7 /* Interface.storyboard */; };
+		269320111BDB029700C8A4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269320101BDB029700C8A4D7 /* Assets.xcassets */; };
+		269320181BDB029700C8A4D7 /* Xtreme Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 269320171BDB029700C8A4D7 /* Xtreme Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2693201F1BDB029700C8A4D7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693201E1BDB029700C8A4D7 /* InterfaceController.swift */; };
+		269320211BDB029700C8A4D7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269320201BDB029700C8A4D7 /* ExtensionDelegate.swift */; };
+		269320251BDB029700C8A4D7 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269320241BDB029700C8A4D7 /* GlanceController.swift */; };
+		269320271BDB029700C8A4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269320261BDB029700C8A4D7 /* Assets.xcassets */; };
+		26B1EA5B1BD1EB5B00E35123 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1EA5A1BD1EB5B00E35123 /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +43,51 @@
 			remoteGlobalIDString = 261C2E6A1BB4C9CB005CD22A;
 			remoteInfo = "Solowheel Xtreme";
 		};
+		268F248C1C1CC178007A2FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261C2E631BB4C9CB005CD22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2693200A1BDB029600C8A4D7;
+			remoteInfo = "Xtreme Watch";
+		};
+		269320191BDB029700C8A4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261C2E631BB4C9CB005CD22A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269320161BDB029700C8A4D7;
+			remoteInfo = "Xtreme Watch Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		269320311BDB029700C8A4D7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				269320181BDB029700C8A4D7 /* Xtreme Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269320331BDB029700C8A4D7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				268F248E1C1CC1B2007A2FD2 /* Xtreme Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		261C2E6B1BB4C9CB005CD22A /* Solowheel Xtreme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solowheel Xtreme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261C2E6E1BB4C9CB005CD22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		261C2E701BB4C9CB005CD22A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		261C2E701BB4C9CB005CD22A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		261C2E731BB4C9CB005CD22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		261C2E761BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solowheel_Xtreme.xcdatamodel; sourceTree = "<group>"; };
 		261C2E781BB4C9CB005CD22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +99,21 @@
 		261C2E8D1BB4C9CB005CD22A /* Solowheel XtremeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solowheel XtremeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261C2E911BB4C9CB005CD22A /* Solowheel_XtremeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solowheel_XtremeUITests.swift; sourceTree = "<group>"; };
 		261C2E931BB4C9CB005CD22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265281AF1BCAC668000E6B8E /* GaugesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugesViewController.swift; sourceTree = "<group>"; };
+		267D15781BCDE59F004C2CD4 /* DataSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSingleton.swift; sourceTree = "<group>"; };
+		2693200B1BDB029600C8A4D7 /* Xtreme Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xtreme Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2693200E1BDB029600C8A4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		269320101BDB029700C8A4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269320121BDB029700C8A4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269320171BDB029700C8A4D7 /* Xtreme Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Xtreme Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2693201D1BDB029700C8A4D7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2693201E1BDB029700C8A4D7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		269320201BDB029700C8A4D7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		269320241BDB029700C8A4D7 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		269320261BDB029700C8A4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269320281BDB029700C8A4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B1EA5A1BD1EB5B00E35123 /* GaugeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		26F6A1A31BE6E65C0083EE00 /* Solowheel Xtreme.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Solowheel Xtreme.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +138,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		269320141BDB029700C8A4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +154,8 @@
 				261C2E6D1BB4C9CB005CD22A /* Solowheel Xtreme */,
 				261C2E851BB4C9CB005CD22A /* Solowheel XtremeTests */,
 				261C2E901BB4C9CB005CD22A /* Solowheel XtremeUITests */,
+				2693200C1BDB029600C8A4D7 /* Xtreme Watch */,
+				2693201B1BDB029700C8A4D7 /* Xtreme Watch Extension */,
 				261C2E6C1BB4C9CB005CD22A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +166,8 @@
 				261C2E6B1BB4C9CB005CD22A /* Solowheel Xtreme.app */,
 				261C2E821BB4C9CB005CD22A /* Solowheel XtremeTests.xctest */,
 				261C2E8D1BB4C9CB005CD22A /* Solowheel XtremeUITests.xctest */,
+				2693200B1BDB029600C8A4D7 /* Xtreme Watch.app */,
+				269320171BDB029700C8A4D7 /* Xtreme Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,8 +175,12 @@
 		261C2E6D1BB4C9CB005CD22A /* Solowheel Xtreme */ = {
 			isa = PBXGroup;
 			children = (
+				26F6A1A31BE6E65C0083EE00 /* Solowheel Xtreme.entitlements */,
 				261C2E6E1BB4C9CB005CD22A /* AppDelegate.swift */,
-				261C2E701BB4C9CB005CD22A /* ViewController.swift */,
+				261C2E701BB4C9CB005CD22A /* SearchViewController.swift */,
+				265281AF1BCAC668000E6B8E /* GaugesViewController.swift */,
+				26B1EA5A1BD1EB5B00E35123 /* GaugeView.swift */,
+				267D15781BCDE59F004C2CD4 /* DataSingleton.swift */,
 				261C2E721BB4C9CB005CD22A /* Main.storyboard */,
 				261C2E781BB4C9CB005CD22A /* Assets.xcassets */,
 				261C2E7A1BB4C9CB005CD22A /* LaunchScreen.storyboard */,
@@ -128,6 +208,37 @@
 			path = "Solowheel XtremeUITests";
 			sourceTree = "<group>";
 		};
+		2693200C1BDB029600C8A4D7 /* Xtreme Watch */ = {
+			isa = PBXGroup;
+			children = (
+				2693200D1BDB029600C8A4D7 /* Interface.storyboard */,
+				269320101BDB029700C8A4D7 /* Assets.xcassets */,
+				269320121BDB029700C8A4D7 /* Info.plist */,
+			);
+			path = "Xtreme Watch";
+			sourceTree = "<group>";
+		};
+		2693201B1BDB029700C8A4D7 /* Xtreme Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2693201E1BDB029700C8A4D7 /* InterfaceController.swift */,
+				269320201BDB029700C8A4D7 /* ExtensionDelegate.swift */,
+				269320241BDB029700C8A4D7 /* GlanceController.swift */,
+				269320261BDB029700C8A4D7 /* Assets.xcassets */,
+				269320281BDB029700C8A4D7 /* Info.plist */,
+				2693201C1BDB029700C8A4D7 /* Supporting Files */,
+			);
+			path = "Xtreme Watch Extension";
+			sourceTree = "<group>";
+		};
+		2693201C1BDB029700C8A4D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2693201D1BDB029700C8A4D7 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +249,12 @@
 				261C2E671BB4C9CB005CD22A /* Sources */,
 				261C2E681BB4C9CB005CD22A /* Frameworks */,
 				261C2E691BB4C9CB005CD22A /* Resources */,
+				269320331BDB029700C8A4D7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				268F248D1C1CC178007A2FD2 /* PBXTargetDependency */,
 			);
 			name = "Solowheel Xtreme";
 			productName = "Solowheel Xtreme";
@@ -184,17 +297,61 @@
 			productReference = 261C2E8D1BB4C9CB005CD22A /* Solowheel XtremeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		2693200A1BDB029600C8A4D7 /* Xtreme Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269320321BDB029700C8A4D7 /* Build configuration list for PBXNativeTarget "Xtreme Watch" */;
+			buildPhases = (
+				269320091BDB029600C8A4D7 /* Resources */,
+				269320311BDB029700C8A4D7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2693201A1BDB029700C8A4D7 /* PBXTargetDependency */,
+			);
+			name = "Xtreme Watch";
+			productName = "Xtreme Watch";
+			productReference = 2693200B1BDB029600C8A4D7 /* Xtreme Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		269320161BDB029700C8A4D7 /* Xtreme Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269320301BDB029700C8A4D7 /* Build configuration list for PBXNativeTarget "Xtreme Watch Extension" */;
+			buildPhases = (
+				269320131BDB029700C8A4D7 /* Sources */,
+				269320141BDB029700C8A4D7 /* Frameworks */,
+				269320151BDB029700C8A4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xtreme Watch Extension";
+			productName = "Xtreme Watch Extension";
+			productReference = 269320171BDB029700C8A4D7 /* Xtreme Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		261C2E631BB4C9CB005CD22A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Inventist;
 				TargetAttributes = {
 					261C2E6A1BB4C9CB005CD22A = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = Q9LK2S5URY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					261C2E811BB4C9CB005CD22A = {
 						CreatedOnToolsVersion = 7.0;
@@ -203,6 +360,14 @@
 					261C2E8C1BB4C9CB005CD22A = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 261C2E6A1BB4C9CB005CD22A;
+					};
+					2693200A1BDB029600C8A4D7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Q9LK2S5URY;
+					};
+					269320161BDB029700C8A4D7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Q9LK2S5URY;
 					};
 				};
 			};
@@ -222,6 +387,8 @@
 				261C2E6A1BB4C9CB005CD22A /* Solowheel Xtreme */,
 				261C2E811BB4C9CB005CD22A /* Solowheel XtremeTests */,
 				261C2E8C1BB4C9CB005CD22A /* Solowheel XtremeUITests */,
+				2693200A1BDB029600C8A4D7 /* Xtreme Watch */,
+				269320161BDB029700C8A4D7 /* Xtreme Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +418,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		269320091BDB029600C8A4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269320111BDB029700C8A4D7 /* Assets.xcassets in Resources */,
+				2693200F1BDB029600C8A4D7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269320151BDB029700C8A4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269320271BDB029700C8A4D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,9 +442,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261C2E711BB4C9CB005CD22A /* ViewController.swift in Sources */,
+				265281B01BCAC669000E6B8E /* GaugesViewController.swift in Sources */,
+				261C2E711BB4C9CB005CD22A /* SearchViewController.swift in Sources */,
 				261C2E6F1BB4C9CB005CD22A /* AppDelegate.swift in Sources */,
 				261C2E771BB4C9CB005CD22A /* Solowheel_Xtreme.xcdatamodeld in Sources */,
+				26B1EA5B1BD1EB5B00E35123 /* GaugeView.swift in Sources */,
+				267D15791BCDE59F004C2CD4 /* DataSingleton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +467,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		269320131BDB029700C8A4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269320211BDB029700C8A4D7 /* ExtensionDelegate.swift in Sources */,
+				2693201F1BDB029700C8A4D7 /* InterfaceController.swift in Sources */,
+				269320251BDB029700C8A4D7 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +489,16 @@
 			isa = PBXTargetDependency;
 			target = 261C2E6A1BB4C9CB005CD22A /* Solowheel Xtreme */;
 			targetProxy = 261C2E8E1BB4C9CB005CD22A /* PBXContainerItemProxy */;
+		};
+		268F248D1C1CC178007A2FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2693200A1BDB029600C8A4D7 /* Xtreme Watch */;
+			targetProxy = 268F248C1C1CC178007A2FD2 /* PBXContainerItemProxy */;
+		};
+		2693201A1BDB029700C8A4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269320161BDB029700C8A4D7 /* Xtreme Watch Extension */;
+			targetProxy = 269320191BDB029700C8A4D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -310,6 +517,14 @@
 				261C2E7B1BB4C9CB005CD22A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2693200D1BDB029600C8A4D7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2693200E1BDB029600C8A4D7 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -332,7 +547,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -376,7 +592,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -391,6 +608,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -400,10 +618,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Solowheel Xtreme/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-Xtreme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -411,10 +633,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = "Solowheel Xtreme/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-Xtreme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -466,6 +692,74 @@
 			};
 			name = Release;
 		};
+		2693202C1BDB029700C8A4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Xtreme_Watch_Extension;
+				INFOPLIST_FILE = "Xtreme Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-Xtreme.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2693202D1BDB029700C8A4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Xtreme_Watch_Extension;
+				INFOPLIST_FILE = "Xtreme Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-Xtreme.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		2693202E1BDB029700C8A4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Xtreme Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-Xtreme.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2693202F1BDB029700C8A4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = "Xtreme Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inventist.solowheel.xtreme.Solowheel-Xtreme.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -485,6 +779,7 @@
 				261C2E981BB4C9CB005CD22A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		261C2E991BB4C9CB005CD22A /* Build configuration list for PBXNativeTarget "Solowheel XtremeTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +788,7 @@
 				261C2E9B1BB4C9CB005CD22A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		261C2E9C1BB4C9CB005CD22A /* Build configuration list for PBXNativeTarget "Solowheel XtremeUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +797,25 @@
 				261C2E9E1BB4C9CB005CD22A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269320301BDB029700C8A4D7 /* Build configuration list for PBXNativeTarget "Xtreme Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2693202E1BDB029700C8A4D7 /* Debug */,
+				2693202F1BDB029700C8A4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269320321BDB029700C8A4D7 /* Build configuration list for PBXNativeTarget "Xtreme Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2693202C1BDB029700C8A4D7 /* Debug */,
+				2693202D1BDB029700C8A4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

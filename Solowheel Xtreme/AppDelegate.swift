@@ -3,7 +3,6 @@
 //  Solowheel Xtreme
 //
 //  Created by kroot on 9/24/15.
-//  Copyright © 2015 Inventist. All rights reserved.
 //
 
 import UIKit
@@ -14,9 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    func application(application: UIApplication, performFetchWithCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
+   }
 
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UIApplication.sharedApplication().setMinimumBackgroundFetchInterval(UIApplicationBackgroundFetchIntervalMinimum)
+         
         return true
     }
 
